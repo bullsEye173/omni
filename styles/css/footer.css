@@ -1,0 +1,44 @@
+footer {
+  margin-bottom: 5rem;
+}
+footer {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20rem;
+  margin-bottom: 0;
+  width: 100%;
+}
+
+footer .link {
+  align-self: center;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  width: 34rem;
+}
+
+footer h5 {
+  color: #6c757d;
+  font-weight: 600;
+  margin: 0;
+  margin-bottom: 2rem;
+}
+
+footer > * {
+  align-self: center;
+  text-align: center;
+}
+
+footer .link a {
+  background: #007bff20;
+  color: #007bff;
+  font-weight: 900;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: background 0.2s ease-in-out;
+  word-wrap: break-word;
+}
+
+footer .links a {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}

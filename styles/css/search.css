@@ -1,0 +1,72 @@
+.Search > * {
+  align-self: center;
+}
+
+.Search .expanded > * {
+  flex: 1 1;
+}
+
+.Search {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+  position: relative;
+  width: 100%;
+}
+
+.Search label {
+  color: #6c757d;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.Search .expanded {
+  display: flex;
+  flex-direction: row;
+  margin-top: 2rem;
+  width: 60%;
+  padding: 1rem;
+  padding-bottom: 0;
+  width: calc(100% - 4rem);
+}
+
+.Search .expanded h3 {
+  color: #4c75f2;
+  margin-bottom: 0.75rem;
+}
+
+.Search .expanded h4 {
+  font-size: 16px !important;
+  color: #6c757d;
+  font-weight: 600;
+  margin: 0;
+  margin-bottom: 0.5rem;
+}
+
+.Search .suggestions {
+  display: flex;
+  flex-direction: column;
+  margin-right: 1rem;
+}
+
+.Search .suggestions .suggestion div {
+  padding-top: 1px;
+}
+
+.Search .suggestions .suggestion {
+  color: #6c757d99;
+  display: flex;
+  flex-direction: row;
+  padding: 0.1rem;
+}
+
+.Search .suggestions .suggestion h4 {
+  cursor: pointer;
+  margin-left: 0.25rem;
+}
+
+.fadeInUp {
+  animation-duration: 0.45s;
+  animation-fill-mode: both;
+  animation-name: fadeInUp;
+}

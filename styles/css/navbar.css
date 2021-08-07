@@ -1,0 +1,38 @@
+.Navbar {
+  margin: 10px auto 80px;
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+  justify-content: flex-start;
+  z-index: 999;
+  height: 4rem;
+  justify-content: space-between;
+}
+
+.Navbar .navbar-middle {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  word-wrap: break-word;
+
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.Navbar .navbar-middle a {
+  color: #9c27b0;
+  display: flex;
+  justify-content: center;
+  font-size: 1.5rem;
+}
+
+.Navbar .navbar-middle span {
+  margin-left: 10px;
+}
+
+.Navbar .navbar-middle .brand span {
+  margin-left: 2px;
+  color: #4c75f2;
+}
